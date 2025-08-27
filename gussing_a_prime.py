@@ -1,7 +1,7 @@
 i=0
 while(i<1):
     try:
-        n= int(input("enter no. you want to check wether it is prime or not: "))
+        n = int(input("enter no. you want to check wheather it is prime or not: "))
         if(n==1 or n==0):
             print("your no. prime neither composite")
         for i in range(2,n):
