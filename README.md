@@ -16,25 +16,25 @@ A simple Python program that checks whether a number entered by the user is prim
 ```bash
 git clone https://github.com/yuvsharma723/code-playground.git
 
-Navigate to the project folder
+2. **Navigate to the project folder**
 
 cd code-playground
 
-Run the Python script
+3. **Run the Python script**
 
 python prime_checker.py
-Example Output
+## **Example Output**
 Enter a number: 7
 7 is prime!
 
 Enter a number: 8
 8 is not prime!
-Technologies
+## **Technologies**
 
 Python 3.x
 
 Standard Python libraries (no extra modules required)
 
-Author
+## **Author**
 
 Yuv Sharma
