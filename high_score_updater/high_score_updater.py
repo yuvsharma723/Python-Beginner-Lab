@@ -1,7 +1,7 @@
 import random
 def hiscore():
     no=random.randint(1,100)
-    with open("hiscore.txt","r+") as f:
+    with open("high_score.txt","r+") as f:
         f.seek(0)
         content = f.read().strip()
         if content == "":
