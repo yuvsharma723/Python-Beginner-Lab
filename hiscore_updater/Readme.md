@@ -1,4 +1,4 @@
-# High Score Tracker
+# High Score Updater
 
 A simple Python script to track and update high scores. This program generates a random number between **1 and 100**, compares it with the previous high score stored in a text file (`hiscore.txt`), and updates it if a new high score is achieved.
 
