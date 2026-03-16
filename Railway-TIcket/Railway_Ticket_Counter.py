@@ -19,7 +19,7 @@ class railway_ticket_counter:
                     print("Please enter a valid gender (male, female, or other).")
                     i=0
             coach_no = (input("Enter your coach number: "))
-             
+            
             k=0
             while k==0:
                 phone_no = input("Enter your 10-digit phone number: ")
@@ -30,10 +30,18 @@ class railway_ticket_counter:
                     k=0
             print ("Your ticket has been booked successfully!")
             self.seat += 1
-ticket = railway_ticket_counter()
-try:
-    ticket_require = int(input("how many tickets do you want to book? "))
-    for i in range(1,ticket_require+1):
-        ticket.book_ticket()
-except :
-    print("Please enter a valid number of tickets to book.")
+u = 0
+while u==0:
+    ticket = railway_ticket_counter()
+    try:
+        ticket_require = int(input("how many tickets do you want to book? "))
+        for i in range(1,ticket_require+1):
+            ticket.book_ticket()
+    except :
+        print("Please enter a valid number of tickets to book.")
+    ask = input("Do you want to book more tickets? (yes/no): ")
+    if ask.lower() == "yes":
+        u=0
+    else:     
+        u=1
+        print("Thank you for using the railway ticket counter. Have a nice day!")
